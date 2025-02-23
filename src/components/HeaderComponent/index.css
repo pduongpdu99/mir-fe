@@ -1,0 +1,8 @@
+.header-component {
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    background: rgb(66, 143, 187);
+    color: white;
+    font-size: 28px;
+}
