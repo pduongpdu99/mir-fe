@@ -1,4 +1,4 @@
-export default {
+const SYSTEM = {
     SERVER_SIDE: {
         URL: "http://127.0.0.1",
         PORT: 5000,
@@ -708,3 +708,5 @@ export default {
         ]
     }
 }
+
+export default SYSTEM;
