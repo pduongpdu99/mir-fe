@@ -36,7 +36,7 @@ const FloatArrayInput = () => {
                     alert("Không được rỗng");
                     return;
                 }
-                const nn = inputValue.split(",").map(i => Number(i.trim()));
+                const nn = inputValue.trim().split(",").map(i => Number(i.trim()));
                 if (nn.length > 0) {
                     dispatch(PredictAction.rf(nn));
                 }
