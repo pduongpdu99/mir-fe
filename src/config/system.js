@@ -1,7 +1,8 @@
 const SYSTEM = {
     SERVER_SIDE: {
-        URL: "http://127.0.0.1",
+        URL: "http://10.250.18.64",
         PORT: 5000,
+        CLOUD: "https://mir-be.fly.dev"
     },
     REQ_TEMP: {
         nn: [

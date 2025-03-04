@@ -1,5 +1,5 @@
 import SYSTEM from '../../config/system';
-const URL = `${SYSTEM.SERVER_SIDE.URL}:${SYSTEM.SERVER_SIDE.PORT}`;
+const URL = SYSTEM.SERVER_SIDE.CLOUD ?? `${SYSTEM.SERVER_SIDE.URL}:${SYSTEM.SERVER_SIDE.PORT}`;
 
 /**
  * calling api prediction
