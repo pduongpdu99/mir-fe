@@ -2,7 +2,7 @@ const SYSTEM = {
     SERVER_SIDE: {
         URL: "http://10.250.18.64",
         PORT: 5000,
-        CLOUD: "https://mir-be-8ynzzq.fly.dev"
+        CLOUD: "https://mir-be.vercel.app"
     },
     REQ_TEMP: {
         nn: [
